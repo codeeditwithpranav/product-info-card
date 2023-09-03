@@ -1,0 +1,64 @@
+@media only screen and (max-width: 375px) {
+    html {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+        height: 10;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: var(--body-color);
+    }
+
+    .container {
+        margin-top: 30px;
+        margin-left: 16px;
+        width: 341px;
+        height: 617px;
+        background: var(--container-background);
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .col-1{
+        width: auto;
+        height: 231px;
+        background-image: url(images/image-product-mobile.jpg);
+        background-size: cover;
+        border-radius: 5% 5% 0% 0%;
+    }
+    .col-2{
+        width: auto;
+        height: 50%;
+        padding-left: 20px;
+        text-align: left;
+        align-items: center;
+        padding-right: 3px;
+    }
+    h3{
+        margin-top: 25px;
+    }
+    h1 br{
+        display: none;
+    }
+    button{
+        margin-top: 10px;
+        width: 300px;
+        height: 54px;
+    }
+    p{
+        text-align: left;
+        padding-right: 1px;
+        margin-top: -3px;
+    }
+    p br{
+      
+
+        display: none;
+    }
+
+
+}
